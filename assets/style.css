@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/photo-1536147210925-5cb7a7a4f9fe.avif);
+    position: relative;
+}
+
+#main::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+#main h1{
+    color: #fff;
+    margin-top: -100px;
+    z-index: 100;
+    font-family: 'Alex Brush', cursive;
+    font-size: 2.5rem;
+}
+
+.logo{
+    width: 500px;
+    border: 1px solid #686868;
+    padding: 70px;
+    z-index: 100;
+}
