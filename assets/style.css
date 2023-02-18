@@ -6,14 +6,16 @@
 }
 
 #main{
-    width: 100%;
-    min-height: 100vh;
+    width: calc(100% - 6px);
+    min-height: calc(100vh - 6px);;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url(../img/photo-1536147210925-5cb7a7a4f9fe.avif);
     position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
 }
 
 #main::before{
